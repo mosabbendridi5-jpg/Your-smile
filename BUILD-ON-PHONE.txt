@@ -1,0 +1,14 @@
+SMART SMILE SCANNER — BUILD APK USING ONLY YOUR PHONE
+
+1) Extract this ZIP on your phone.
+2) In a mobile browser, open github.com and sign in/create an account.
+3) Create a NEW repository. For the easiest setup, make it Private.
+4) Upload the contents of this extracted folder to the repository (including the .github folder and the SmartSmileAndroid folder). Keep the folder structure exactly as it is.
+5) Open the repository > Actions > Build Smart Smile Scanner APK.
+6) Tap Run workflow > Run workflow. Wait until the run is completed successfully.
+7) Open the completed run. Under Artifacts, download Smart-Smile-Scanner-APK.
+8) Extract the downloaded artifact ZIP; inside is app-debug.apk. Tap it to install on your Android phone.
+
+If the GitHub mobile page does not let you upload folders or hidden .github files, use the browser menu > Desktop site, or use GitHub's Add file > Create new file to create .github/workflows/build-apk.yml and paste the workflow from this project.
+
+This produces an installable debug APK. It is not a Play Store release APK. Do not publish this project publicly if you intend to keep your source private.
